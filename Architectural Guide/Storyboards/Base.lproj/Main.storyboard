@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="RootViewController" customModule="Architectural_Guide" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lT5-fm-XKQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HNA-Jk-qMq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HNA-Jk-qMq" firstAttribute="top" secondItem="lT5-fm-XKQ" secondAttribute="top" id="C0b-He-o4R"/>
+                            <constraint firstItem="HNA-Jk-qMq" firstAttribute="leading" secondItem="tvs-Vm-c2n" secondAttribute="leading" id="kYw-hP-C0p"/>
+                            <constraint firstItem="HNA-Jk-qMq" firstAttribute="bottom" secondItem="tvs-Vm-c2n" secondAttribute="bottom" id="mYP-u6-FWm"/>
+                            <constraint firstItem="HNA-Jk-qMq" firstAttribute="trailing" secondItem="tvs-Vm-c2n" secondAttribute="trailing" id="pCd-8g-qpn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tvs-Vm-c2n"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="HNA-Jk-qMq" id="YRs-Zn-ldb"/>
+                        <outlet property="view" destination="lT5-fm-XKQ" id="GUh-bA-aG8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-506" y="117"/>
+        </scene>
+        <!--Display Text View Controller-->
+        <scene sceneID="X9g-6R-KZt">
+            <objects>
+                <viewController storyboardIdentifier="TextViewVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hli-eQ-Fvd" customClass="DisplayTextViewController" customModule="Architectural_Guide" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uIO-Qc-nOV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KAv-P8-yHG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <string key="text">Место дуэли Пушкина. 8 февраля 1837 года (по новому стилю 27 января) состоялась дуэль Пушкина с Дантесом, на которой поэт был смертельно ранен. Место дуэли Пушкина расположено в Санкт-Петербурге у Чёрной речки. Местом поединка Пушкина с Дантесом стала местность вблизи так называемой Комендантской дачи на левом берегу Чёрной речки. Это была довольно большая территория, где повар Александра I Ф. И. Миллер построил деревянные дома и сдавал дачи на лето. В 1833 и 1835 годах здесь снимала дачу семья Пушкиных. Место было избрано для поединка потому, что центр Петербурга имел хорошее сообщение с Чёрной речкой в любое время года, в частности — зимой. Кроме того, существует мнение, что секунданты выбрали для дуэли это место ещё и потому, что маршрут к нему проходил через людный Каменный остров, и они надеялись на обстоятельства или встречи с людьми, которые могли бы помешать поединку.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="PXo-iG-KGC" appends="YES" id="OHt-Dv-Kpd"/>
+                                </connections>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KAv-P8-yHG" firstAttribute="bottom" secondItem="XF7-98-6cs" secondAttribute="bottom" id="49G-dp-gEI"/>
+                            <constraint firstItem="KAv-P8-yHG" firstAttribute="top" secondItem="uIO-Qc-nOV" secondAttribute="top" id="S1r-p0-1g5"/>
+                            <constraint firstItem="KAv-P8-yHG" firstAttribute="leading" secondItem="XF7-98-6cs" secondAttribute="leading" id="T7m-RZ-QAN"/>
+                            <constraint firstAttribute="trailing" secondItem="KAv-P8-yHG" secondAttribute="trailing" id="TkJ-Hx-Fux"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XF7-98-6cs"/>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="KAv-P8-yHG" id="b9R-yG-rQV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rJI-xk-oCr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="PXo-iG-KGC">
+                    <connections>
+                        <action selector="pinched:" destination="hli-eQ-Fvd" id="XIC-Nh-ISt"/>
+                    </connections>
+                </pinchGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="629.60000000000002" y="115.59220389805098"/>
+        </scene>
+    </scenes>
+</document>
