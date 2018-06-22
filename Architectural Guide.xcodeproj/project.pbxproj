@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7203179820BB51BB002F8B94 /* ShowInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7203179220BB51BB002F8B94 /* ShowInfoPresenter.swift */; };
+		7203179B20BB51BB002F8B94 /* ShowInfoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7203179520BB51BB002F8B94 /* ShowInfoModels.swift */; };
+		7203179C20BB51BB002F8B94 /* ShowInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7203179620BB51BB002F8B94 /* ShowInfoViewController.swift */; };
+		7203179D20BB51BB002F8B94 /* ShowInfoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7203179720BB51BB002F8B94 /* ShowInfoInteractor.swift */; };
+		720317A120BB579D002F8B94 /* VisionRequestWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720317A020BB579D002F8B94 /* VisionRequestWorker.swift */; };
+		720317A320BB5B59002F8B94 /* NodeFactoryWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720317A220BB5B59002F8B94 /* NodeFactoryWorker.swift */; };
+		72290DC720C8019800F9AC5D /* Ekaterina_Velikaya_Skver.txt in Resources */ = {isa = PBXBuildFile; fileRef = 72290DC620C8019800F9AC5D /* Ekaterina_Velikaya_Skver.txt */; };
 		72A05AFC20B8A063006661C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A05AFB20B8A063006661C7 /* AppDelegate.swift */; };
-		72A05B0020B8A063006661C7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A05AFF20B8A063006661C7 /* RootViewController.swift */; };
 		72A05B0320B8A063006661C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A05B0120B8A063006661C7 /* Main.storyboard */; };
 		72A05B0820B8A065006661C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A05B0620B8A065006661C7 /* LaunchScreen.storyboard */; };
 		72A05B1420B8A28A006661C7 /* Pushkin.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 72A05B1320B8A28A006661C7 /* Pushkin.mlmodel */; };
 		72C6CB7720B9D5C8007AACA5 /* PushkinInformation.txt in Resources */ = {isa = PBXBuildFile; fileRef = 72C6CB7620B9D5C8007AACA5 /* PushkinInformation.txt */; };
-		72C6CB7920B9D7D1007AACA5 /* DisplayTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C6CB7820B9D7D1007AACA5 /* DisplayTextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7203179220BB51BB002F8B94 /* ShowInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowInfoPresenter.swift; sourceTree = "<group>"; };
+		7203179520BB51BB002F8B94 /* ShowInfoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowInfoModels.swift; sourceTree = "<group>"; };
+		7203179620BB51BB002F8B94 /* ShowInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowInfoViewController.swift; sourceTree = "<group>"; };
+		7203179720BB51BB002F8B94 /* ShowInfoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowInfoInteractor.swift; sourceTree = "<group>"; };
+		720317A020BB579D002F8B94 /* VisionRequestWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionRequestWorker.swift; sourceTree = "<group>"; };
+		720317A220BB5B59002F8B94 /* NodeFactoryWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeFactoryWorker.swift; sourceTree = "<group>"; };
+		72290DC620C8019800F9AC5D /* Ekaterina_Velikaya_Skver.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Ekaterina_Velikaya_Skver.txt; sourceTree = "<group>"; };
 		72A05AF820B8A063006661C7 /* Architectural Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Architectural Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A05AFB20B8A063006661C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72A05AFF20B8A063006661C7 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		72A05B0220B8A063006661C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72A05B0720B8A065006661C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72A05B0920B8A065006661C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72A05B1320B8A28A006661C7 /* Pushkin.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Pushkin.mlmodel; sourceTree = "<group>"; };
 		72C6CB7620B9D5C8007AACA5 /* PushkinInformation.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushkinInformation.txt; sourceTree = "<group>"; };
-		72C6CB7820B9D7D1007AACA5 /* DisplayTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7203179E20BB51C4002F8B94 /* Show Info */ = {
+			isa = PBXGroup;
+			children = (
+				7203179F20BB578C002F8B94 /* Workers */,
+				7203179220BB51BB002F8B94 /* ShowInfoPresenter.swift */,
+				7203179520BB51BB002F8B94 /* ShowInfoModels.swift */,
+				7203179620BB51BB002F8B94 /* ShowInfoViewController.swift */,
+				7203179720BB51BB002F8B94 /* ShowInfoInteractor.swift */,
+			);
+			path = "Show Info";
+			sourceTree = "<group>";
+		};
+		7203179F20BB578C002F8B94 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				720317A020BB579D002F8B94 /* VisionRequestWorker.swift */,
+				720317A220BB5B59002F8B94 /* NodeFactoryWorker.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
 		72A05AEF20B8A063006661C7 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +89,9 @@
 		72A05AFA20B8A063006661C7 /* Architectural Guide */ = {
 			isa = PBXGroup;
 			children = (
+				7203179E20BB51C4002F8B94 /* Show Info */,
 				72A05B1520B8A2AB006661C7 /* Resources */,
 				72A05B0F20B8A0B2006661C7 /* Application Delegate */,
-				72A05B1220B8A101006661C7 /* ViewControllers */,
 				72A05B1120B8A0DE006661C7 /* Storyboards */,
 				72A05B1020B8A0D0006661C7 /* Configuration */,
 			);
@@ -92,20 +123,12 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		72A05B1220B8A101006661C7 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				72A05AFF20B8A063006661C7 /* RootViewController.swift */,
-				72C6CB7820B9D7D1007AACA5 /* DisplayTextViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		72A05B1520B8A2AB006661C7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				72A05B1320B8A28A006661C7 /* Pushkin.mlmodel */,
 				72C6CB7620B9D5C8007AACA5 /* PushkinInformation.txt */,
+				72290DC620C8019800F9AC5D /* Ekaterina_Velikaya_Skver.txt */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -169,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72A05B0820B8A065006661C7 /* LaunchScreen.storyboard in Resources */,
+				72290DC720C8019800F9AC5D /* Ekaterina_Velikaya_Skver.txt in Resources */,
 				72C6CB7720B9D5C8007AACA5 /* PushkinInformation.txt in Resources */,
 				72A05B0320B8A063006661C7 /* Main.storyboard in Resources */,
 			);
@@ -181,10 +205,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72C6CB7920B9D7D1007AACA5 /* DisplayTextViewController.swift in Sources */,
+				7203179B20BB51BB002F8B94 /* ShowInfoModels.swift in Sources */,
+				7203179820BB51BB002F8B94 /* ShowInfoPresenter.swift in Sources */,
+				7203179D20BB51BB002F8B94 /* ShowInfoInteractor.swift in Sources */,
+				720317A320BB5B59002F8B94 /* NodeFactoryWorker.swift in Sources */,
 				72A05B1420B8A28A006661C7 /* Pushkin.mlmodel in Sources */,
-				72A05B0020B8A063006661C7 /* RootViewController.swift in Sources */,
+				720317A120BB579D002F8B94 /* VisionRequestWorker.swift in Sources */,
 				72A05AFC20B8A063006661C7 /* AppDelegate.swift in Sources */,
+				7203179C20BB51BB002F8B94 /* ShowInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
